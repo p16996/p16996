@@ -61,8 +61,6 @@ Built regression-based ML models to predict Airbnb listing prices in London. Fea
 
 ---
 
----
-
 ### 📜 Certifications
 
 - 🏅 AWS Cloud Practitioner Essentials  
