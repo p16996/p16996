@@ -39,19 +39,27 @@ I'm a detail-oriented and results-driven Analytics Developer with 3+ years of ex
 -->
 ---
 
-### 🚀 Projects
+### 🚀 Featured Project
 
-#### 📊 [Jane Street Market Prediction](https://github.com/p16996/jane-street-market-prediction)
-Predictive modeling on stock market data using Python & SQL. Included preprocessing, feature selection, and performance evaluation.
+#### 📊 [Jane Street Market Prediction](https://github.com/p16996/jane-street-market-prediction)  
+Capstone project using Python and SQL to build ML models that predict stock trade actions with 73% accuracy. Focused on large-scale data preprocessing (6GB), feature selection, and model evaluation using Random Forests and Neural Networks.
 
-#### 🏥 [COVID-19 Forecasting – California](#)
+---
+
+### 🗃️ Past Projects (Concepts)
+
+> ⚠️ These projects were completed during my academic journey. Final source files are not available, but each reflects valuable learning and experience.
+
+#### 🏥 COVID-19 Forecasting – California *(Concept Project)*  
 Time-series forecasting using R to predict COVID-19 case counts. Applied ARIMA and exponential smoothing models.
 
-#### 🛍️ [Amazon Review Sentiment Analysis](#)
-NLP-based sentiment and topic modeling (LDA) to analyze Amazon product reviews. Extracted themes using Python.
+#### 🛍️ Amazon Review Sentiment Analysis *(Concept Project)*  
+NLP-based sentiment and topic modeling (LDA) to analyze Amazon product reviews. Extracted themes using Python and Scikit-learn.
 
-#### 🏡 [Airbnb Pricing Forecast](#)
-Built regression-based ML models to predict Airbnb listing prices in London. Featured feature engineering and visualization.
+#### 🏡 Airbnb Pricing Forecast *(Concept Project)*  
+Built regression-based ML models to predict Airbnb listing prices in London. Featured feature engineering, visualization, and pricing strategy insights.
+
+---
 
 ---
 
