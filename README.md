@@ -41,7 +41,7 @@ I'm a detail-oriented and results-driven Analytics Developer with 3+ years of ex
 
 ### 🚀 Projects
 
-#### 📊 [Jane Street Market Prediction](#)
+#### 📊 [Jane Street Market Prediction](https://github.com/p16996/jane-street-market-prediction)
 Predictive modeling on stock market data using Python & SQL. Included preprocessing, feature selection, and performance evaluation.
 
 #### 🏥 [COVID-19 Forecasting – California](#)
