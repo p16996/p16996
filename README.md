@@ -29,9 +29,9 @@ I'm a detail-oriented and results-driven Analytics Developer with 3+ years of ex
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 ![Microsoft Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-
----
  <!-- !
+---
+
 ### 📈 GitHub Stats
 
 [Prathyusha's GitHub stats](https://github-readme-stats.vercel.app/api?username=p16996&show_icons=true&theme=radical) 
