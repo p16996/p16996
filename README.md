@@ -31,12 +31,12 @@ I'm a detail-oriented and results-driven Analytics Developer with 3+ years of ex
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 
 ---
-
+ <!-- !
 ### 📈 GitHub Stats
 
- <!-- ![Prathyusha's GitHub stats](https://github-readme-stats.vercel.app/api?username=p16996&show_icons=true&theme=radical) -->
+[Prathyusha's GitHub stats](https://github-readme-stats.vercel.app/api?username=p16996&show_icons=true&theme=radical) 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=p16996&layout=compact&theme=radical)
-
+-->
 ---
 
 ### 🚀 Projects
