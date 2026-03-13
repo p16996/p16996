@@ -1,81 +1,127 @@
 # 👋 Hi, I'm Prathyusha Sathineni
 
-🎯 **Analytics Developer | Data Enthusiast | Cloud Explorer**  
-📍 Austin, TX | ✉️ sai.prathyusha08@gmail.com | [LinkedIn](https://www.linkedin.com/in/prathyushasathineni)
+**Data & Analytics | Python | SQL | Machine Learning**
+
+📍 Austin, TX  
+✉️ sai.prathyusha08@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/prathyushasathineni)
 
 ---
 
-### 🔍 About Me
+## 🔎 About Me
 
-I'm a detail-oriented and results-driven Analytics Developer with 3+ years of experience working with large, complex datasets to deliver data-driven insights. I specialize in building scalable data pipelines, predictive models, and visual analytics that support operational and strategic decision-making. I love using data to solve real-world problems and create meaningful business impact.
+I work at the intersection of **data, analytics, and business decision-making**.
 
----
+My experience includes analyzing large datasets, building predictive models, and developing analytics tools that help teams understand patterns and make better decisions. I primarily work with **Python, SQL, and machine learning techniques** to extract insights and build practical data solutions.
 
-### 🛠️ Tech Stack
-
-**Languages & Tools**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-
-**Data & Analytics**  
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
-
-**Cloud & ML**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Microsoft Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
- <!-- !
----
-
-### 📈 GitHub Stats
-
-[Prathyusha's GitHub stats](https://github-readme-stats.vercel.app/api?username=p16996&show_icons=true&theme=radical) 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=p16996&layout=compact&theme=radical)
--->
----
-
-### 🚀 Featured Project
-
-#### 📊 [Jane Street Market Prediction](https://github.com/p16996/jane-street-market-prediction)  
-Capstone project using Python and SQL to build ML models that predict stock trade actions with 73% accuracy. Focused on large-scale data preprocessing (6GB), feature selection, and model evaluation using Random Forests and Neural Networks.
+I am currently building **end-to-end analytics projects** including customer churn prediction and decision intelligence dashboards.
 
 ---
 
-### 🗃️ Past Projects (Concepts)
+## 🛠 Tech Stack
 
-> ⚠️ These projects were completed during my academic journey. Final source files are not available, but each reflects valuable learning and experience.
+**Languages**
 
-#### 🏥 COVID-19 Forecasting – California *(Concept Project)*  
-Time-series forecasting using R to predict COVID-19 case counts. Applied ARIMA and exponential smoothing models.
+- Python
+- SQL
 
-#### 🛍️ Amazon Review Sentiment Analysis *(Concept Project)*  
-NLP-based sentiment and topic modeling (LDA) to analyze Amazon product reviews. Extracted themes using Python and Scikit-learn.
+**Data & Analytics**
 
-#### 🏡 Airbnb Pricing Forecast *(Concept Project)*  
-Built regression-based ML models to predict Airbnb listing prices in London. Featured feature engineering, visualization, and pricing strategy insights.
+- Pandas
+- Scikit-learn
+- Tableau
+- Plotly
+- Streamlit
 
----
+**Tools**
 
-### 📜 Certifications
+- Databricks
+- VS Code
+- Git / GitHub
 
-- 🏅 AWS Cloud Practitioner Essentials  
-- 📊 Tableau Analyst Badge  
-- 📈 Google Analytics for Beginners  
-- 💡 HackerRank SQL Gold Badge  
-- 📱 Android App Development  
+**Cloud**
 
----
-
-### 📬 Let's Connect!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/prathyushasathineni)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sai.prathyusha08@gmail.com)
+- AWS
 
 ---
 
-_“Turning data into insight, one model at a time.”_
+## 🚀 Featured Project
+
+### 📊 Customer Churn Analysis & Prediction *(In Progress)*
+
+End-to-end analytics project focused on identifying customers likely to leave a service.
+
+**Key components**
+
+- Exploratory data analysis to identify churn drivers  
+- Feature engineering and predictive modeling  
+- Logistic regression model for churn prediction  
+- Interactive Streamlit dashboard for business insights
+
+Goal: help businesses **identify high-risk customers and improve retention strategies**.
+
+---
+
+### 📈 Jane Street Market Prediction
+
+Capstone project using Python and SQL to build machine learning models that predict stock trade actions.
+
+- Processed large-scale financial dataset (~6GB)
+- Applied feature engineering and model evaluation
+- Implemented Random Forest and neural network models
+
+---
+
+## 📂 Additional Analytics Projects
+
+### 🏥 COVID-19 Forecasting (Concept Project)
+
+Time-series forecasting using R to predict COVID-19 case counts.
+
+Techniques used:
+- ARIMA
+- Exponential smoothing
+
+---
+
+### 🛍 Amazon Review Sentiment Analysis (Concept Project)
+
+Natural language processing project analyzing Amazon product reviews.
+
+Techniques used:
+
+- Sentiment analysis
+- Topic modeling (LDA)
+- Python and Scikit-learn
+
+---
+
+### 🏡 Airbnb Pricing Forecast (Concept Project)
+
+Built regression models to estimate Airbnb listing prices in London.
+
+Project involved:
+
+- feature engineering
+- pricing insights
+- exploratory visualization
+
+---
+
+## 📜 Certifications
+
+- AWS Cloud Practitioner Essentials  
+- Tableau Analyst Badge  
+- Google Analytics for Beginners  
+- HackerRank SQL Gold Badge  
+
+---
+
+## 📬 Connect With Me
+
+[LinkedIn](https://www.linkedin.com/in/prathyushasathineni)  
+Email: sai.prathyusha08@gmail.com
+
+---
+
+_"Building analytics systems that turn data into actionable business insights."_
