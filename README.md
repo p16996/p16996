@@ -1,110 +1,102 @@
 # 👋 Hi, I'm Prathyusha Sathineni
 
-**Data & Analytics | Python | SQL | Machine Learning**
+**Data & Analytics Professional | Machine Learning | Python | SQL**
 
 📍 Austin, TX  
 ✉️ sai.prathyusha08@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/prathyushasathineni)
 
 ---
+I am a data and analytics professional with **5+ years of experience** building data-driven solutions across large-scale systems.
 
-## 🔎 About Me
+My work focuses on:
+- analyzing large-scale datasets  
+- building predictive models  
+- developing data-driven solutions that support decision-making  
 
-I work at the intersection of **data, analytics, and business decision-making**.
+I specialize in transforming raw data into **actionable insights and intelligent decision systems** using Python, SQL, and machine learning.
 
-My experience includes analyzing large datasets, building predictive models, and developing analytics tools that help teams understand patterns and make better decisions. I primarily work with **Python, SQL, and machine learning techniques** to extract insights and build practical data solutions.
-
-I am currently building **end-to-end analytics projects** including customer churn prediction and decision intelligence dashboards.
+Currently, I am focused on building **production-style ML systems** that integrate prediction, decision-making, and automation.
 
 ---
 
 ## 🛠 Tech Stack
 
 **Languages**
-
 - Python
 - SQL
 
-**Data & Analytics**
-
+**Data & Machine Learning**
 - Pandas
 - Scikit-learn
-- Tableau
+- PySpark
+- Time-Series Analysis
+- Anomaly Detection
+
+**Visualization & Apps**
 - Plotly
 - Streamlit
+- Tableau
 
-**Tools**
-
+**Data Platforms & Tools**
 - Databricks
-- VS Code
+- Azure Data Lake
 - Git / GitHub
+- VS Code
 
 **Cloud**
-
 - AWS
 
 ---
 
 ## 🚀 Featured Project
 
-### 📊 Customer Churn Analysis & Prediction *(In Progress)*
+### ⚙️ Machine Monitoring System *(In Progress)*
 
-End-to-end analytics project focused on identifying customers likely to leave a service.
+An end-to-end machine learning system designed to **predict machine failure risk and support real-time monitoring decisions**.
 
-**Key components**
+**Key capabilities**
+- Failure prediction using operational sensor data  
+- Risk scoring based on model probabilities  
+- Decision layer for alert prioritization (safe / monitor / alert)  
+- Streamlit-based web application for interactive monitoring  
+- Data preprocessing and model pipeline integrated into application  
 
-- Exploratory data analysis to identify churn drivers  
-- Feature engineering and predictive modeling  
-- Logistic regression model for churn prediction  
-- Interactive Streamlit dashboard for business insights
-
-Goal: help businesses **identify high-risk customers and improve retention strategies**.
-
----
-
-### 📈 Jane Street Market Prediction
-
-Capstone project using Python and SQL to build machine learning models that predict stock trade actions.
-
-- Processed large-scale financial dataset (~6GB)
-- Applied feature engineering and model evaluation
-- Implemented Random Forest and neural network models
+**Goal**  
+Build a **production-style ML system** that moves beyond prediction to **decision support and automation**.
 
 ---
 
-## 📂 Additional Analytics Projects
+## 📊 Professional Experience Highlights
 
-### 🏥 COVID-19 Forecasting (Concept Project)
-
-Time-series forecasting using R to predict COVID-19 case counts.
-
-Techniques used:
-- ARIMA
-- Exponential smoothing
+- Built predictive analytics pipelines on high-frequency sensor data, improving system reliability and reducing downtime  
+- Developed real-time alerting systems to identify anomalies and support faster incident response  
+- Designed interactive dashboards for monitoring system performance across multiple regions  
+- Worked with cross-functional teams to translate data insights into operational improvements  
 
 ---
 
-### 🛍 Amazon Review Sentiment Analysis (Concept Project)
+## 📂 Additional Projects
 
-Natural language processing project analyzing Amazon product reviews.
+### 📈 Market Prediction (Quantitative Modeling)
 
-Techniques used:
-
-- Sentiment analysis
-- Topic modeling (LDA)
-- Python and Scikit-learn
+- Processed large-scale financial datasets (~6GB)  
+- Built and evaluated machine learning models for predictive decision-making  
+- Applied feature engineering and model optimization techniques  
 
 ---
 
-### 🏡 Airbnb Pricing Forecast (Concept Project)
+### 🏥 Time-Series Forecasting
 
-Built regression models to estimate Airbnb listing prices in London.
+- Developed forecasting models using ARIMA and exponential smoothing  
+- Focused on trend analysis and future value prediction  
 
-Project involved:
+---
 
-- feature engineering
-- pricing insights
-- exploratory visualization
+### 🛍 NLP & Sentiment Analysis
+
+- Built text classification models for customer feedback analysis  
+- Applied topic modeling and feature extraction techniques  
 
 ---
 
@@ -119,9 +111,9 @@ Project involved:
 
 ## 📬 Connect With Me
 
-[LinkedIn](https://www.linkedin.com/in/prathyushasathineni)  
-Email: sai.prathyusha08@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/prathyushasathineni)  
+✉️ sai.prathyusha08@gmail.com  
 
 ---
 
-_"Building analytics systems that turn data into actionable business insights."_
+_"Building intelligent data systems that enable better decisions at scale."_
