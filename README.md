@@ -1,119 +1,139 @@
-# 👋 Hi, I'm Prathyusha Sathineni
+# Hi, I'm Prathyusha Sathineni 👋
 
-**Data & Analytics Professional | Machine Learning | Python | SQL**
+I'm a data and analytics professional with 5+ years of experience building data solutions, analytics pipelines, and monitoring systems.
 
-📍 Austin, TX  
-✉️ sai.prathyusha08@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/prathyushasathineni)
+After working in manufacturing analytics for several years, I took a career break. During my return to the industry, I decided not to just refresh my existing skills—I wanted to understand how modern AI and machine learning are changing analytics.
 
----
-I am a data and analytics professional with **5+ years of experience** building data-driven solutions across large-scale systems.
+This GitHub documents that journey.
 
-My work focuses on:
-- analyzing large-scale datasets  
-- building predictive models  
-- developing data-driven solutions that support decision-making  
-
-I specialize in transforming raw data into **actionable insights and intelligent decision systems** using Python, SQL, and machine learning.
-
-Currently, I am focused on building **production-style ML systems** that integrate prediction, decision-making, and automation.
+Here you'll find projects where I'm rebuilding concepts from first principles, experimenting with machine learning, and gradually moving toward production-style AI systems.
 
 ---
 
-## 🛠 Tech Stack
+# What I'm Currently Building
 
-**Languages**
-- Python
-- SQL
+## ⚙️ [Intelligent Machine Monitoring System](https://github.com/p16996/predictive-maintenance-analysis)
 
-**Data & Machine Learning**
-- Pandas
-- Scikit-learn
-- PySpark
-- Time-Series Analysis
-- Anomaly Detection
+This is the primary project I'm currently working on.
 
-**Visualization & Apps**
-- Plotly
-- Streamlit
-- Tableau
+The goal isn't simply to predict whether a machine will fail. I want to build a system that helps an engineer understand **why** something is happening and **what action should be taken next**.
 
-**Data Platforms & Tools**
-- Databricks
-- Azure Data Lake
-- Git / GitHub
-- VS Code
+A production-style machine learning application for predictive maintenance and real-time monitoring.
 
-**Cloud**
-- AWS
+### Current Features
 
----
+- Machine failure prediction using operational sensor data
+- Interactive Streamlit dashboard
+- Risk scoring based on model probabilities
+- Statistical anomaly detection using Z-Score and IQR
+- Comparative analysis of anomaly detection methods
+- Feature importance visualization
+- End-to-end prediction pipeline
 
-## 🚀 Featured Project
+### Currently Building
 
-### ⚙️ Machine Monitoring System *(In Progress)*
+- Isolation Forest anomaly detection
+- AI-generated anomaly explanations
+- Explainable AI for model predictions
+- Decision support recommendations
+- Production-style monitoring workflow
 
-An end-to-end machine learning system designed to **predict machine failure risk and support real-time monitoring decisions**.
+I'm currently expanding the project by comparing multiple anomaly detection techniques and integrating AI-generated explanations so that technical results can be translated into clear, human-readable insights.
 
-**Key capabilities**
-- Failure prediction using operational sensor data  
-- Risk scoring based on model probabilities  
-- Decision layer for alert prioritization (safe / monitor / alert)  
-- Streamlit-based web application for interactive monitoring  
-- Data preprocessing and model pipeline integrated into application  
-
-**Goal**  
-Build a **production-style ML system** that moves beyond prediction to **decision support and automation**.
+Instead of stopping at prediction, the objective is to build an end-to-end monitoring system that combines analytics, machine learning, and AI.
 
 ---
 
-## 📊 Professional Experience Highlights
+# Technologies I Work With
 
-- Built predictive analytics pipelines on high-frequency sensor data, improving system reliability and reducing downtime  
-- Developed real-time alerting systems to identify anomalies and support faster incident response  
-- Designed interactive dashboards for monitoring system performance across multiple regions  
-- Worked with cross-functional teams to translate data insights into operational improvements  
+### Languages
 
----
+* Python
+* SQL
 
-## 📂 Additional Projects
+### Data Engineering
 
-### 📈 Market Prediction (Quantitative Modeling)
+* PySpark
+* Databricks
+* Azure Data Lake
 
-- Processed large-scale financial datasets (~6GB)  
-- Built and evaluated machine learning models for predictive decision-making  
-- Applied feature engineering and model optimization techniques  
+### Machine Learning
 
----
+* scikit-learn
+* Pandas
+* Time Series Forecasting
+* Anomaly Detection
+* Predictive Modeling
 
-### 🏥 Time-Series Forecasting
+### Visualization
 
-- Developed forecasting models using ARIMA and exponential smoothing  
-- Focused on trend analysis and future value prediction  
+* Plotly
+* Streamlit
+* Tableau
 
----
+### Tools
 
-### 🛍 NLP & Sentiment Analysis
+* Git
+* GitHub
+* VS Code
 
-- Built text classification models for customer feedback analysis  
-- Applied topic modeling and feature extraction techniques  
+### Cloud
 
----
-
-## 📜 Certifications
-
-- AWS Cloud Practitioner Essentials  
-- Tableau Analyst Badge  
-- Google Analytics for Beginners  
-- HackerRank SQL Gold Badge  
+* AWS
 
 ---
 
-## 📬 Connect With Me
+# Other Projects
 
-🔗 [LinkedIn](https://www.linkedin.com/in/prathyushasathineni)  
-✉️ sai.prathyusha08@gmail.com  
+### Market Prediction
+
+Built machine learning models on large financial datasets to explore predictive modeling, feature engineering, and model evaluation.
 
 ---
 
-_"Building intelligent data systems that enable better decisions at scale."_
+### Time-Series Forecasting
+
+Implemented forecasting models using ARIMA and Exponential Smoothing to study trends and future value prediction.
+
+---
+
+### NLP & Sentiment Analysis
+
+Explored text classification and customer sentiment analysis using natural language processing techniques.
+
+---
+
+# Professional Background
+
+Before my career break, I spent over five years building analytics solutions for manufacturing operations.
+
+Some of the work included:
+
+* Predictive analytics
+* Real-time monitoring
+* Interactive dashboards
+* Operational reporting
+* High-frequency data processing
+* Cross-functional analytics projects
+
+That experience continues to shape how I approach new projects today. I enjoy building systems that are practical, explainable, and designed to solve real operational problems.
+
+---
+
+# What I'm Learning
+
+Technology changes quickly, so I treat GitHub as a place to continuously build and learn.
+
+Right now I'm focusing on:
+
+* Production machine learning
+* LLM integration
+* Explainable AI
+* Analytics engineering
+* End-to-end data applications
+
+---
+
+Thanks for stopping by!
+
+Feel free to explore the repositories or connect with me on LinkedIn.
