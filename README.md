@@ -1,139 +1,86 @@
 # Hi, I'm Prathyusha Sathineni 👋
 
-I'm a data and analytics professional with 5+ years of experience building data solutions, analytics pipelines, and monitoring systems.
+I'm an analytics engineer who likes building systems that don't just report what happened, but help someone figure out what to do next.
 
-After working in manufacturing analytics for several years, I took a career break. During my return to the industry, I decided not to just refresh my existing skills—I wanted to understand how modern AI and machine learning are changing analytics.
+My background is in manufacturing and healthcare analytics — dashboards, alerting, predictive maintenance, operational reporting. Lately I've been rebuilding that same instinct with a modern stack: dbt, DuckDB, Dagster, and LLMs used as a reasoning layer instead of just a summarizer.
 
-This GitHub documents that journey.
-
-Here you'll find projects where I'm rebuilding concepts from first principles, experimenting with machine learning, and gradually moving toward production-style AI systems.
+This GitHub is where that work lives.
 
 ---
 
-# What I'm Currently Building
+## 🔧 What I'm Building
 
-## ⚙️ [Intelligent Machine Monitoring System](https://github.com/p16996/predictive-maintenance-analysis)
+### [Predictive Maintenance & Anomaly Detection](https://github.com/p16996/predictive-maintenance-analysis)
+A production-style monitoring system for industrial sensor data — built to answer not just "will this machine fail" but "why, and what should an engineer do about it."
 
-This is the primary project I'm currently working on.
+- Multi-method anomaly detection (Z-score, IQR, Isolation Forest) with a consensus layer comparing all three
+- Machine failure prediction on operational sensor data, with risk scoring from model probabilities
+- Claude API integration that turns the highest-confidence anomalies into plain-English, actionable explanations for maintenance engineers, with token usage and cost tracked from real API responses rather than estimates
+- Threshold tuning based on actual sensor behavior rather than textbook defaults — a real calibration problem I ran into and solved
 
-The goal isn't simply to predict whether a machine will fail. I want to build a system that helps an engineer understand **why** something is happening and **what action should be taken next**.
+### [Olist Analytics Pipeline](https://github.com/p16996/olist-analytics-pipeline) — *in progress*
+A full analytics engineering build on e-commerce order data, structured the way I'd want a production pipeline to look.
 
-A production-style machine learning application for predictive maintenance and real-time monitoring.
-
-### Current Features
-
-- Machine failure prediction using operational sensor data
-- Interactive Streamlit dashboard
-- Risk scoring based on model probabilities
-- Statistical anomaly detection using Z-Score and IQR
-- Comparative analysis of anomaly detection methods
-- Feature importance visualization
-- End-to-end prediction pipeline
-
-### Currently Building
-
-- Isolation Forest anomaly detection
-- AI-generated anomaly explanations
-- Explainable AI for model predictions
-- Decision support recommendations
-- Production-style monitoring workflow
-
-I'm currently expanding the project by comparing multiple anomaly detection techniques and integrating AI-generated explanations so that technical results can be translated into clear, human-readable insights.
-
-Instead of stopping at prediction, the objective is to build an end-to-end monitoring system that combines analytics, machine learning, and AI.
+- dbt models across staging, intermediate, and mart layers, with data quality tests and full documentation
+- DuckDB as the local warehouse, Dagster for orchestration on a daily schedule
+- Evidence.dev for dashboarding (currently in progress)
+- Building toward a **Seller Exoneration Engine** — using an LLM as a structured reasoning layer over evidence (order timelines, logistics data, complaint patterns) to determine fault in delivery disputes, rather than using it to summarize text. The idea is to treat the LLM as something that reasons over structured evidence, not just paraphrases it.
 
 ---
 
-# Technologies I Work With
+## 🧰 Technologies I Work With
 
-### Languages
+**Languages**
+Python · SQL
 
-* Python
-* SQL
+**Analytics Engineering**
+dbt · DuckDB · Dagster · Evidence.dev
 
-### Data Engineering
+**Data Engineering**
+PySpark · Databricks · Azure Data Lake
 
-* PySpark
-* Databricks
-* Azure Data Lake
+**Machine Learning**
+scikit-learn · Pandas · SciPy
 
-### Machine Learning
+**ML Focus Areas**
+Anomaly Detection · Predictive Modeling · Time Series Forecasting
 
-* scikit-learn
-* Pandas
-* Time Series Forecasting
-* Anomaly Detection
-* Predictive Modeling
+**AI / LLMs**
+Anthropic Claude API · Prompt design for structured reasoning tasks
 
-### Visualization
+**Visualization**
+Plotly · Streamlit · Tableau · Evidence.dev
 
-* Plotly
-* Streamlit
-* Tableau
-
-### Tools
-
-* Git
-* GitHub
-* VS Code
-
-### Cloud
-
-* AWS
+**Tools & Cloud**
+Git · GitHub · VS Code · AWS
 
 ---
 
-# Other Projects
+## 📂 Other Projects
 
-### Market Prediction
+**Market Prediction** — ML models on financial datasets, focused on feature engineering and model evaluation.
 
-Built machine learning models on large financial datasets to explore predictive modeling, feature engineering, and model evaluation.
+**Time-Series Forecasting** — ARIMA and Exponential Smoothing models for trend and future value prediction.
 
----
-
-### Time-Series Forecasting
-
-Implemented forecasting models using ARIMA and Exponential Smoothing to study trends and future value prediction.
+**NLP & Sentiment Analysis** — Text classification and customer sentiment analysis.
 
 ---
 
-### NLP & Sentiment Analysis
+## 💼 Background
 
-Explored text classification and customer sentiment analysis using natural language processing techniques.
+I've spent 5+ years building analytics solutions across manufacturing and healthcare — predictive analytics, real-time monitoring, interactive dashboards, and high-frequency operational data processing. I usually describe my role as the bridge between domain expertise and working code: understanding what the business actually needs, then building the pipeline or dashboard that gets them there.
 
----
-
-# Professional Background
-
-Before my career break, I spent over five years building analytics solutions for manufacturing operations.
-
-Some of the work included:
-
-* Predictive analytics
-* Real-time monitoring
-* Interactive dashboards
-* Operational reporting
-* High-frequency data processing
-* Cross-functional analytics projects
-
-That experience continues to shape how I approach new projects today. I enjoy building systems that are practical, explainable, and designed to solve real operational problems.
+That background is what pulls me toward analytics engineering now — I want to own more of the stack, from the transformation layer to the reasoning layer on top of it.
 
 ---
 
-# What I'm Learning
+## 📚 What I'm Focused On Right Now
 
-Technology changes quickly, so I treat GitHub as a place to continuously build and learn.
-
-Right now I'm focusing on:
-
-* Production machine learning
-* LLM integration
-* Explainable AI
-* Analytics engineering
-* End-to-end data applications
+- Analytics engineering (dbt, DuckDB, Dagster)
+- LLMs as a reasoning layer, not just a chat interface
+- Explainable, production-grade ML systems
+- End-to-end data applications, not just notebooks
 
 ---
 
-Thanks for stopping by!
-
-Feel free to explore the repositories or connect with me on LinkedIn.
+Thanks for stopping by — feel free to explore the repos or connect with me on [LinkedIn](https://linkedin.com/in/prathyushasathineni).
