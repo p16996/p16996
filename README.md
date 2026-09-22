@@ -1,86 +1,135 @@
 # Hi, I'm Prathyusha Sathineni 👋
 
-I'm an analytics engineer who likes building systems that don't just report what happened, but help someone figure out what to do next.
+I'm an **Analytics Engineer / Senior Data Analyst** focused on building analytics systems that turn data into decisions.
 
-My background is in manufacturing and healthcare analytics — dashboards, alerting, predictive maintenance, operational reporting. Lately I've been rebuilding that same instinct with a modern stack: dbt, DuckDB, Dagster, and LLMs used as a reasoning layer instead of just a summarizer.
+My background is in manufacturing and healthcare analytics, where I've worked on operational reporting, sensor monitoring, alerting, data validation, and interactive dashboards.
 
-This GitHub is where that work lives.
+More recently, I've been building end-to-end analytics and AI systems using **Python, SQL, PySpark, Databricks, dbt, DuckDB, Dagster, BigQuery, and LLM APIs**.
+
+I'm particularly interested in the layer between reliable data and useful decisions — where analytics engineering, machine learning, and AI come together.
 
 ---
 
 ## 🔧 What I'm Building
 
+### [StreamLens — AI Analyst for YouTube Trends]([https://github.com/p16996/streamlens-3.0](https://github.com/prathyushaprojects/streamlens-3.0)) — *private, DM or connect on LinkedIn for access*
+
+An AI-powered analytics application that lets users ask natural-language questions about YouTube trending data and get answers backed by actual SQL queries and database results.
+
+* Built a daily ingestion pipeline using the **YouTube API, Cloud Run, Cloud Scheduler, and BigQuery**
+* Designed partitioned and clustered BigQuery tables for trending snapshots and video history
+* Built a **Gemini-powered natural-language-to-SQL agent** that generates and executes analytical queries
+* Added SQL guardrails, row limits, query-cost controls, refusal handling, and retry logic
+* Uses separate least-privilege service accounts for ingestion and read-only analytics access
+* Every response shows the **SQL used and estimated query cost**, making the AI's reasoning traceable
+* Added automated ingestion monitoring and alerting for pipeline failures
+* Built a hand-verified evaluation suite covering aggregation, filtering, unsupported questions, and zero-result cases
+* Streamlit interface for interacting with the analytics agent
+
+The project is intentionally focused on **short-term trend analysis within the available data**, rather than claiming long-term forecasting or prediction.
+
+The goal: make an AI analyst that can answer questions from real data while making its work visible and auditable.
+
+---
+
 ### [Predictive Maintenance & Anomaly Detection](https://github.com/p16996/predictive-maintenance-analysis)
-A production-style monitoring system for industrial sensor data — built to answer not just "will this machine fail" but "why, and what should an engineer do about it."
 
-- Multi-method anomaly detection (Z-score, IQR, Isolation Forest) with a consensus layer comparing all three
-- Machine failure prediction on operational sensor data, with risk scoring from model probabilities
-- Claude API integration that turns the highest-confidence anomalies into plain-English, actionable explanations for maintenance engineers, with token usage and cost tracked from real API responses rather than estimates
-- Threshold tuning based on actual sensor behavior rather than textbook defaults — a real calibration problem I ran into and solved
+An industrial sensor analytics system combining anomaly detection, machine-failure classification, and AI-generated explanations.
 
-### [Olist Analytics Pipeline](https://github.com/p16996/olist-analytics-pipeline) — *in progress*
-A full analytics engineering build on e-commerce order data, structured the way I'd want a production pipeline to look.
+* Multi-method anomaly detection using **Z-score, IQR, and Isolation Forest**, with consensus scoring across methods
+* Machine-failure classification using operational sensor data, with risk scoring based on model probabilities
+* Threshold calibration based on observed sensor behavior rather than relying only on textbook defaults
+* **Claude API** integration that generates plain-English explanations for detected anomalies
+* Real API token usage and cost tracking rather than estimated costs
+* Streamlit interface for reviewing risk levels, anomalies, and supporting signals
 
-- dbt models across staging, intermediate, and mart layers, with data quality tests and full documentation
-- DuckDB as the local warehouse, Dagster for orchestration on a daily schedule
-- Evidence.dev for dashboarding (currently in progress)
-- Building toward a **Seller Exoneration Engine** — using an LLM as a structured reasoning layer over evidence (order timelines, logistics data, complaint patterns) to determine fault in delivery disputes, rather than using it to summarize text. The idea is to treat the LLM as something that reasons over structured evidence, not just paraphrases it.
+The goal is not just to identify an anomaly, but to make the result understandable and useful to someone investigating the equipment.
+
+---
+
+### [Olist Analytics Pipeline](https://github.com/p16996/olist-analytics-pipeline)
+
+An end-to-end analytics engineering project built around real e-commerce marketplace data.
+
+* **dbt** staging, intermediate, and mart models
+* Data-quality tests and documented transformations
+* **DuckDB** as the analytical warehouse
+* **Dagster** for orchestration
+* **Evidence.dev** for analytics dashboards
+* Seller, pricing, delivery, and review analysis across marketplace transactions
+* Building an AI layer that reasons over structured business evidence rather than simply summarizing text
+
+The focus is on building the full path from **raw data → tested transformations → analytical models → business insight → AI-assisted reasoning**.
 
 ---
 
 ## 🧰 Technologies I Work With
 
 **Languages**
-Python · SQL
+Python · SQL · PySpark · Spark SQL
 
 **Analytics Engineering**
-dbt · DuckDB · Dagster · Evidence.dev
+dbt · DuckDB · Dagster · BigQuery · Databricks · Delta Lake · Evidence.dev
 
 **Data Engineering**
-PySpark · Databricks · Azure Data Lake
+ETL · Data Validation · Data Quality · Schema Design · Data Modeling · Analytics Pipelines · Apache Spark
 
 **Machine Learning**
-scikit-learn · Pandas · SciPy
-
-**ML Focus Areas**
-Anomaly Detection · Predictive Modeling · Time Series Forecasting
+scikit-learn · Predictive Modeling · Anomaly Detection · Statistical Analysis · Time-Series Analysis
 
 **AI / LLMs**
-Anthropic Claude API · Prompt design for structured reasoning tasks
+Google Gemini API · Vertex AI · Anthropic Claude API · SQL-generating agents · AI guardrails · Prompt engineering
 
 **Visualization**
-Plotly · Streamlit · Tableau · Evidence.dev
+Plotly · Plotly Dash · Streamlit · Tableau · Matplotlib · Evidence.dev
 
-**Tools & Cloud**
-Git · GitHub · VS Code · AWS
+**Cloud & Tools**
+GCP · Cloud Run · Azure Data Lake · AWS · Docker · Git · GitHub · VS Code · Jupyter
 
 ---
 
 ## 📂 Other Projects
 
-**Market Prediction** — ML models on financial datasets, focused on feature engineering and model evaluation.
+**Market Prediction**
+Machine-learning models on financial datasets, focused on feature engineering and model evaluation.
 
-**Time-Series Forecasting** — ARIMA and Exponential Smoothing models for trend and future value prediction.
+**Time-Series Forecasting**
+ARIMA and Exponential Smoothing models for trend and future-value prediction.
 
-**NLP & Sentiment Analysis** — Text classification and customer sentiment analysis.
+**NLP & Sentiment Analysis**
+Text classification and customer sentiment analysis using traditional machine-learning approaches.
 
 ---
 
 ## 💼 Background
 
-I've spent 5+ years building analytics solutions across manufacturing and healthcare — predictive analytics, real-time monitoring, interactive dashboards, and high-frequency operational data processing. I usually describe my role as the bridge between domain expertise and working code: understanding what the business actually needs, then building the pipeline or dashboard that gets them there.
+My professional experience spans **manufacturing, healthcare analytics, and application development**.
 
-That background is what pulls me toward analytics engineering now — I want to own more of the stack, from the transformation layer to the reasoning layer on top of it.
+At Novelis, I worked as an **Analytics Developer**, building Python, PySpark, and SQL solutions in Databricks for sensor monitoring and maintenance alerting. I also built automated Teams/email notifications, SQL-based schema validation, and interactive Plotly Dash visualizations.
+
+My work contributed to a **25% reduction in unplanned equipment downtime** and a **50% reduction in incident response time** across global manufacturing operations.
+
+That experience shaped how I approach analytics:
+
+> Reliable data is only useful when it helps someone make a better operational decision.
+
+That's why I'm moving deeper into analytics engineering — owning more of the path from **data → transformation → analysis → application → decision support**.
 
 ---
 
 ## 📚 What I'm Focused On Right Now
 
-- Analytics engineering (dbt, DuckDB, Dagster)
-- LLMs as a reasoning layer, not just a chat interface
-- Explainable, production-grade ML systems
-- End-to-end data applications, not just notebooks
+* Analytics engineering with **dbt, DuckDB, Dagster, BigQuery, and Databricks**
+* Building reliable, testable analytics pipelines
+* Applying ML to real operational problems
+* Using LLMs as a **reasoning layer over structured data**
+* Building AI systems with guardrails, validation, monitoring, and cost controls
+* Turning analytical outputs into usable data applications
 
 ---
 
-Thanks for stopping by — feel free to explore the repos or connect with me on [LinkedIn](https://linkedin.com/in/prathyushasathineni).
+## 📫 Connect
+
+[LinkedIn](https://linkedin.com/in/prathyushasathineni) · [GitHub](https://github.com/p16996)
+
+Thanks for stopping by.
